@@ -1,0 +1,9 @@
+<Project>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DefineConstants>$(DefineConstants);AASSERTIONS_ENABLED;LOG_WARN_ENABLED;LOG_INFO_ENABLED;LOG_DEBUG_ENABLED;LOG_TRACE_ENABLED</DefineConstants>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DefineConstants>$(DefineConstants);AASSERTIONS_ENABLED;LOG_WARN_ENABLED;LOG_INFO_ENABLED</DefineConstants>
+	</PropertyGroup>
+</Project>
